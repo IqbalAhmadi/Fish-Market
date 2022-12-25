@@ -9,7 +9,14 @@ class AddFishForm extends React.Component {
   createFish = (event) => {
     // 1. Stop the form from submitting
     event.preventDefault()
-    console.log(this.nameRef.current.value)
+    const fish = {
+      name: this.nameRef.current.value,
+      price: parseFloat(this.priceRef.current.value),
+      status: this.statusRef.current.value,
+      desc: this.descRef.current.value,
+      image: this.imageRef.current.value,
+    }
+    this.props.addFish(fish)
   }
   render() {
     return (
@@ -25,7 +32,7 @@ class AddFishForm extends React.Component {
           <option value="available">Fresh!</option>
           <option value="unavailable">Sold Out!!</option>
         </select>
-        ;<textarea name="desc" ref={this.descRef} placeholder="Desc"></textarea>
+        <textarea name="desc" ref={this.descRef} placeholder="Desc"></textarea>
         <input
           name="image"
           ref={this.imageRef}
