@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Fish-Market/static/css/main.82c6de96.chunk.css",
+    "main.js": "/Fish-Market/static/js/main.9771d522.chunk.js",
+    "main.js.map": "/Fish-Market/static/js/main.9771d522.chunk.js.map",
+    "runtime-main.js": "/Fish-Market/static/js/runtime-main.eca19d52.js",
+    "runtime-main.js.map": "/Fish-Market/static/js/runtime-main.eca19d52.js.map",
+    "static/js/2.965c8811.chunk.js": "/Fish-Market/static/js/2.965c8811.chunk.js",
+    "static/js/2.965c8811.chunk.js.map": "/Fish-Market/static/js/2.965c8811.chunk.js.map",
+    "index.html": "/Fish-Market/index.html",
+    "static/css/main.82c6de96.chunk.css.map": "/Fish-Market/static/css/main.82c6de96.chunk.css.map",
+    "static/js/2.965c8811.chunk.js.LICENSE.txt": "/Fish-Market/static/js/2.965c8811.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/Fish-Market/static/media/haymaker-webfont.f5976e5d.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eca19d52.js",
+    "static/js/2.965c8811.chunk.js",
+    "static/css/main.82c6de96.chunk.css",
+    "static/js/main.9771d522.chunk.js"
+  ]
+}
